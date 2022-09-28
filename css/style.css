@@ -127,3 +127,13 @@ button:hover::after, button:focus::after {
         width: 300px;
     }
 }
+
+/* Result style */
+#result-display {
+    color: #4ECCA3;
+    font-family: 'Lobster', cursive;
+    font-size: 8rem;
+    margin: 30px;
+    text-align: center;
+    text-shadow: 5px 0 #232931;
+}
