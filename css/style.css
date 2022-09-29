@@ -25,6 +25,14 @@ p {
 
 }
 
+#dice-player1 {
+    width: 200px;
+}
+
+#dice-player2 {
+    width: 200px;
+}
+
 #player1 {
     margin-right: 30px;
 }
@@ -132,7 +140,7 @@ button:hover::after, button:focus::after {
 #result-display {
     color: #4ECCA3;
     font-family: 'Lobster', cursive;
-    font-size: 8rem;
+    font-size: 6rem;
     margin: 30px;
     text-align: center;
     text-shadow: 5px 0 #232931;
