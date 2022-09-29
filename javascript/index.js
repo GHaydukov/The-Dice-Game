@@ -3,8 +3,8 @@ let randomNumber1 = Math.ceil(Math.random() * 6);
 let randomNumber2 = Math.ceil(Math.random() * 6);
 
 // Setting the images for the dice
-let firstDiceImage = "images/dice" + randomNumber1 + ".png";
-let secondDiceImage = "images/dice" + randomNumber2 + ".png";
+let firstDiceImage = "./images/dice" + randomNumber1 + ".png";
+let secondDiceImage = "./images/dice" + randomNumber2 + ".png";
 
 // Changing the dice images
 document.querySelector("#dice-player1").setAttribute("src", firstDiceImage);
